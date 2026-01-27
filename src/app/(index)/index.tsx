@@ -10,6 +10,9 @@ export default function IndexRoute() {
       }}
     >
       <Text>Hello world</Text>
+      <Text selectable style={{ marginTop: 16 }}>
+        EXPO_PUBLIC_TEST: {process.env.EXPO_PUBLIC_TEST}
+      </Text>
     </ScrollView>
   );
 }
