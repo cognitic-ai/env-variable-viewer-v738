@@ -10,6 +10,8 @@
     },
     "experiments": {
       "reactCompiler": true
-    }
+    },
+    "name": "Env Variable Viewer",
+    "owner": "testuser"
   }
 }
